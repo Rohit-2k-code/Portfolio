@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flipper</title>
+    <style>
+        body
+        {
+            margin:0;
+            background-color:beige;
+            width:100vw;
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .coin
+        {
+            height:200px;
+            width:200px;
+        }
+
+        .maindiv
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <img src="Coin.png" class="coin">
+        <button onclick="flip()">Click to Flip</button>
+
+        <script>
+        flip = () =>
+        {
+            const x = Math.random();
+            if (x > 0.5) 
+            {
+            alert("Heads");
+            }
+            else 
+            {
+            alert("Tails");
+            }
+        }
+        </script>
+
+    </div>
+</body>
+</html>
