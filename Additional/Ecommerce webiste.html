@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+/*MADE BY ROHIT*/
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <style>
+        body{
+            margin:0;
+            color:white;
+            font-family:Arial;
+            box-sizing: border-box;
+            padding:0;
+        }
+
+        .navbar{
+            width:100%;
+            height:60px;
+            background-color:black;
+            top:0;
+            position:fixed;
+        }
+
+        ul{
+            display:flex;
+            justify-content: space-around;
+            list-style-type: none;
+            margin:0;
+            margin-top:20px;
+            padding:0;
+        }
+
+        .logo{
+            width:220px;
+            height:105px;
+            text-align:center;
+            background-color: rgba(218, 165, 32, 0.76);
+            border-radius: 50px;
+            text-align: center;
+            margin:auto;
+            margin-top:110px;
+            box-shadow: 3px 3px 3px grey;
+        }
+
+        .products{
+            margin-top:80px;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            color:black;
+            text-align: center;
+        }
+
+        img{
+            height: 75%;
+            width: 100%;
+        }
+
+       
+
+        footer{
+            text-align:center;
+            color:black;
+            margin-top:-400px;
+        }
+
+        @media(max-width:600px)
+        {
+        .products{
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+        footer{
+            text-align:center;
+            color:black;
+            margin-top:300px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Your Cart</li>
+            <li>Wishlist</li>
+            <li>Orders</li>
+            <li>Log In</li>
+        </ul>
+    </nav>
+
+    <div class="logo">
+        <h1 style="color:#ffffff;font-size:60px;text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);">BUY</h1>
+        <h2 style="color:#ffffff;margin-top:-42px;">SHOP WITH US!</h2>
+    </div>
+
+    
+    
+    <div class="products">
+    <div>
+        <img src="https://img.freepik.com/free-photo/shoes_1203-8153.jpg?t=st=1731572442~exp=1731576042~hmac=0d2194062b57870b7e3a0074a1b0228da39bfe44eb4067942babd94c6bd8e240&w=996">
+        <h3>Blue Shoes Men</h3>
+    </div>
+    <div>
+        <img src="https://img.freepik.com/free-photo/woman-shoes_1203-8750.jpg?t=st=1731572444~exp=1731576044~hmac=2c9be6af1dc06d218b699686a5c48d2efe06455c18daa96d8ad3cf9402a1b6e2&w=996">
+        <h3>Pink Shoes Women</h3>
+    </div>
+    <div>
+        <img src="https://img.freepik.com/free-photo/men-shoes_1203-8697.jpg?t=st=1731572446~exp=1731576046~hmac=74cad83d29ca683b8f4a7bf627f8565749a87c652dde55e0dd769519774e852d&w=996">
+        <h3>Brown Shoes Men</h3>
+    </div>
+    <div>
+        <img src="https://img.freepik.com/free-photo/men-shoes_1203-8389.jpg?t=st=1731572447~exp=1731576047~hmac=829bbef479775c1c62bb64b53e4852a634ac52415bd2d6775246975c164dc0fd&w=996" >
+        <h3>Blue Shoes Men</h3>
+    </div>
+    <div>
+        <img src="https://img.freepik.com/free-photo/black-fashion-gumshoes_144627-9661.jpg?t=st=1731572448~exp=1731576048~hmac=502e8d90a04a933b8cd5422d8e692ab6b0895408bb2b5cf5d097b10c29b5ea17&w=900">
+        <h3>Black Shoes Women</h3>
+    </div>
+    <div>
+        <img src="https://img.freepik.com/free-photo/shoes_1203-8105.jpg?t=st=1731572449~exp=1731576049~hmac=fac7c4e0745e77ed45a79fe02f4ed11619c8dc2928890ce5b4ddf65e944dc4f8&w=996">
+        <h3>Grey Shoes Men</h3>
+    </div>
+    <div>
+        <img src="https://img.freepik.com/free-photo/beautiful-black-leather-shoes_1203-7614.jpg?t=st=1731573493~exp=1731577093~hmac=14242431c3dbce6dbcca535c3eead055bf405848fb394efa541d1a8e2ee6c35a&w=996">
+        <h3>Black Shoes Men</h3>
+    </div>
+    <div>
+        <img src="https://img.freepik.com/free-photo/woman-shoes_1203-8754.jpg?t=st=1731573448~exp=1731577048~hmac=9fa6c194f8d9a5250218f2b87c8a996425a8e19e04d902a31318cc651bd520d3&w=996">
+        <h3>Black Shoes Women</h3>
+    </div>
+    </div>
+
+    <footer>
+        <h3>Thanks for visiting!</h3>
+    </footer>
+</body>
+</html>
+
+/*MADE BY ROHIT*/
