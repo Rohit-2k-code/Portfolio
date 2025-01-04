@@ -1,0 +1,146 @@
+body
+{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:1700px;
+    font-family:Arial;
+}
+
+.iconholder
+{
+    margin:0;
+    height:350px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
+.bgvideo{
+    position:fixed;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.welcome{
+    font-size:40px;
+    margin:28px;
+    color:rgb(118, 157, 230);
+    text-shadow: 1px 1px rgb(27, 27, 27);
+}
+
+.webdev{
+    color:rgb(255, 255, 255);
+    font-size:80px;
+    margin-top:-4px;
+    text-shadow: 2px 2px 3px rgb(78, 77, 77);
+}
+
+.solotext{
+    color:rgba(199, 202, 208, 0.888);
+}
+
+.rohit{
+    margin:0 auto;
+    color: rgb(255, 255, 255);
+    margin-top:26px;
+    text-shadow: 2px 2px 3px rgb(2, 2, 2);
+}
+
+.linkedinresume{
+    text-shadow: 1px 1px rgb(243, 243, 243);
+}
+
+
+.logoimg{
+    height:130px;
+    width:130px;
+    border-radius: 100px;
+    align-content: center;
+    position: relative;
+    left:3px;
+    top:3px;
+    box-shadow: 4px 4px 4px cornflowerblue;
+}
+
+.empty
+{
+    height:80px;
+}
+
+.empty2
+{
+    height: 500px;
+}
+
+.projects{
+    margin-top:120px;
+}
+
+.link
+{
+    text-decoration: none;
+    color:cornflowerblue;
+}
+
+.link:hover
+{
+    color:rgb(255, 255, 255);
+}
+
+@media (max-width:600px) {
+
+
+.logoimg{
+    margin-top:215px;
+}
+
+body
+{
+    background-image: url(Background.jpg);
+    background-position: -400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.rsm{
+    margin-top:-15px;
+}
+
+.linkedinresume{
+    margin-top:125px;
+}
+
+.welcome{
+    margin:30px;
+}
+
+
+.rohit{
+    margin-top:40px;
+}
+
+.iconholder{
+    margin-top:80px;
+}
+
+.webdev{
+    margin-top: 26px;
+}
+
+.projects{
+    margin-top:120px;
+}
+
+.bgvideo{
+    position:fixed;
+    object-fit:cover;
+}
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dice</title>
+    <style>
+        body
+        {
+            margin:0;
+            width:100%;
+            height:100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+        }
+
+        h1
+        {
+            font-size: 40px;
+        }
+
+        img{
+            height:250px;
+            width:250px;
+        }
+
+        button
+        {
+            font-size: 35px;
+            border-radius: 30px;
+        }
+
+        @media(max-width:600px){
+            img{
+            height:100%;
+            width:100%;
+            max-height:250px;
+            max-width:250px;
+        }
+        button
+        {
+            font-size: 100%;
+        }
+        }
+    </style>
+</head>
+<body>
+    <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/6-edged-dice-Xle5x9E-600.jpg">
+    <h1>Dice Roller</h1>
+    <button onclick="rollDice()">Roll</button>
+    <script>
+        function rollDice() {
+            const result = Math.floor(Math.random() * 6) + 1;
+            alert("Your number: "+result);
+        }
+    </script>
+</body>
+</html>
